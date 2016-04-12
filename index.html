@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Piattaforma Meeting Prova</title>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/modern-business.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="css/registration.css">
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <script src="js/bootstrap.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.js"></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+       <a class="navbar-brand" href="index.html" ><img  class="logo" src="img/images.png"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html">Stat e Notify</a>
+          </li>
+          <li>
+            <a href="Manage_Room.html">Manage Rooms</a>
+          </li>
+          <li>
+            <a href="Manage_Users.html">Manage Users</a>
+          </li>
+          <li>
+            <a href="See_Meeting.html">Log Out</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <hr>
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header">Dashboard
+          <small>Admin</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Dashboard</a>
+          </li>
+          <li class="active">Stat e Notify</li>
+        </ol>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+
+      <div class="col-md-3 cincin">
+     <h2>Select Date</h2>
+               <div >
+            <form class="form-horizontal form_report" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+              <label for="data_fine" class="col-sm-2 control-label">da</label>
+              <div class="col-sm-10">
+                <input type="date" class="form-control" id="data_fine" name="data_fine">
+              </div>
+            </div>
+         
+         
+         
+          
+            <div class="form-group">
+              <label for="data_fine" class="col-sm-2 control-label">a</label>
+              <div class="col-sm-10">
+                <input type="date" class="form-control" id="data_fine" name="data_fine">
+              </div>
+            </div>
+       
+        </div>
+      </div>
+
+      <!-- Content Column -->
+
+      <div class="container">
+        <div class="col-md-9">
+
+          <h2>List of booking to delete</h2>      
+          <div class="table-responsive t1">
+            <table class="table table-hover">
+              <thead class="T-blue">
+                <tr>
+                  <th class="T-blue">Date</th>
+                  <th class="T-blue">Hours</th>
+                  <th class="T-blue">User</th>
+                  <th class="T-blue">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>12/12/2022</td>
+                  <td>from 16:00 to 19:00</td>
+                  <td>john@example.com</td>
+                  <td>
+                    <button type="button" class="btn btn-warning">Details</button>
+                  
+                  <button type="button" class="btn btn-danger btd">Delete</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>12/12/2022</td>
+                  <td>from 16:00 to 19:00</td>
+                  <td>john@example.com</td>
+                  <td>
+                    <button type="button" class="btn btn-warning">Details</button>
+                  
+                  <button type="button" class="btn btn-danger btd">Delete</button>
+                </td>
+                </tr>
+                <tr>
+                  <td>12/12/2022</td>
+                  <td>from 16:00 to 19:00</td>
+                  <td>john@example.com</td>
+                  <td>
+
+                  <button type="button" class="btn btn-warning">Details</button>
+                  
+                  <button type="button" class="btn btn-danger btd">Delete</button>
+                 
+                 </td>
+                </tr>
+                <tr>
+                  <td>12/12/2022</td>
+                  <td>from 16:00 to 19:00</td>
+                  <td>john@example.com</td>
+                  <td>
+                    <button type="button" class="btn btn-warning">Details</button>
+                  
+                  <button type="button" class="btn btn-danger btd">Delete</button>
+                </td>
+                </tr>
+                <tr>
+                  <td>12/12/2022</td>
+                  <td>from 16:00 to 19:00</td>
+                  <td>john@example.com</td>
+                  <td>
+                    <button type="button" class="btn btn-warning">Details</button>
+                  
+                  <button type="button" class="btn btn-danger btd">Delete</button>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- /.row -->
+
+      <br>
+
+      <div class="container">
+        <div class="col-md-6">
+          <h2>Meeting Room most used</h2>      
+          <table class="table table-responsive t1">
+            <thead class="T-blue">
+              <tr>
+                <th style="width: 168px; border-top-left-radius: 7px;" class="T-blue" ;="">Room</th>
+                <th class="T-blue" style=" border-top-right-radius: 7px;"> Stat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sala Gallia Milano</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Sala Gallia Milano</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Sala Gallia Milano</td>
+                <td>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%
+                      <span class="sr-only"></span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div> 
+
+        <div class="container">
+         <div class="col-md-6">
+          <h2>User most active</h2>      
+          <table class="table table-responsive">
+            <thead class="T-blue">
+              <tr>
+                <th class="T-blue" style="border-top-left-radius: 7px">Name</th>
+                <th class="T-blue">N° Booking</th>
+                <th class="T-blue" style="border-top-right-radius: 7px";>Tot. Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John Doe</td>
+                <td>46</td>
+                <td>158</td>
+              </tr>
+              <tr>
+                <td>John Doe</td>
+                <td>46</td>
+                <td>158</td>
+              </tr>
+              <tr>
+                <td>John Doe</td>
+                <td>46</td>
+                <td>158</td>
+              </tr>
+              <tr>
+                <td>John Doe</td>
+                <td>46</td>
+                <td>158</td>
+              </tr>
+              <tr>
+                <td>John Doe</td>
+                <td>46</td>
+                <td>158</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+        
+        
+
+        <!-- Footer -->
+        <footer>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Copyright &copy; EDO & NICO 2016</p>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+      <!-- /.container -->
+
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>
