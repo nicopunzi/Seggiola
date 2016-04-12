@@ -30,35 +30,38 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-             <a class="navbar-brand" href="index.html" ><img  class="logo" src="img/images.png"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="See_Meeting.html">See Meeting</a>
-                    </li>
-                    <li>
-                        <a href="Book_Room.html">Book Room</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Log Out</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" ><img  class="logo" src="img/images.png"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html">Stat e Notify</a>
+          </li>
+          <li>
+            <a href="Manage_Room.html">Manage Rooms</a>
+          </li>
+          <li>
+            <a href="Manage_Users.html">Manage Users</a>
+          </li>
+          <li>
+            <a href="See_Meeting.html">Log Out</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
 
     <hr>
     <!-- Page Content -->
@@ -66,17 +69,17 @@
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">User
-                    <small>A. Rossi</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">See Meeting</a>
-                    </li>
-                    <li class="active">Prenota</li>
-                </ol>
-            </div>
-        </div>
+      <div class="col-lg-12">
+        <h1 class="page-header">Dashboard
+          <small>Admin</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Dashboard</a>
+          </li>
+          <li class="active">Manage Room</li>
+        </ol>
+      </div>
+    </div>
 
         <div class="col-md-4">
                 <a href="portfolio-item.html">
