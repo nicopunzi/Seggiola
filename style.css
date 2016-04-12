@@ -97,7 +97,7 @@
     text-align: center;
 }
 .btn11 {
-    float: right;
+    float: left;
     margin-top: 13px;
 }
 .list-group-item:first-child {
@@ -210,4 +210,7 @@
 }
 .t1{
         border-radius: 7px;
+}
+.cia {
+        margin-left: 1px;
 }
